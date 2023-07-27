@@ -1,0 +1,13 @@
+POST  http://localhost:6000/create
+
+{
+    "name": "test8",
+    "location": "jp",
+    "Title": "004"
+}
+###
+
+GET http://localhost:6000/user/64b650e1a679faf5df0de880
+
+###
+GET http://localhost:6000/users
